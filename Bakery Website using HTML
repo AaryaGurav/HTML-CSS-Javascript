@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pet Cafe</title>
+<style> body {
+
+font-family: Arial, sans-serif; text-align: center;
+}
+
+
+</style>
+</head>
+<body>
+<div class="container">
+
+
+<h1 style="color: #d9534f;">Sweet Treats Bakery</h1>
+<p>Welcome to Sweet Treats Bakery.</p>
+ 
+<p>We bake delicious cakes, pastries, and bread fresh every day. Visit us for a delightful experience and enjoy our homemade treats</p>
+<img src="https://wallpapers.com/images/high/bakery-aesthetic-goods-76cevcp88bluqarr.webp" alt="Bakery interior"style="max-width: 100%; height: auto;">
+
+
+<h3 style="color: #d9534f;">About us:</h3>
+<p>At Sweet Treats Bakery, we have been serving our community with love and passion for baking. Our secret ingredient is always the joy of creating delightful baked goods. We use only the finest ingredients to ensure that each treat is perfect for you!</p>
+<video controls>
+<source src="videos/bakery-intro.mp4" type="video/mp4"> Your browser does not support the video tag.
+</video>
+
+
+<h3 style="color: #d9534f;">Menu:</h3>
+<ul>
+<li><strong>Chocolate Cake:</strong> A rich and moist chocolate cake topped with creamy chocolate frosting. Perfect for any occasion! <strong>Price:</strong> $20</li>
+<li><strong>Fresh Croissants:</strong> Flaky, buttery croissants baked fresh every morning. Enjoy them with a cup of coffee! <strong>Price:</strong> $3 each</li>
+<li><strong>Fruit Tart:</strong> A delicious tart filled with fresh fruit and creamy custard. A favorite among our customers! <strong>Price:</strong> $15</li>
+<li><strong>Homemade Bread:</strong> Freshly baked bread with a crispy crust and soft inside. Perfect for sandwiches or just with butter. <strong>Price:</strong> $5</li>
+</ul>
+<table style="border-collapse: collapse; width: 100%;">
+<table>
+
+
+<table style="border-collapse: collapse; width: 100%;">
+<caption style="caption-side: top; font-weight: bold; padding: 8px; font-size: 1.2em;">Menu Pricing</caption>
+<thead>
+<tr>
+<th style="border: 1px solid black; padding: 8px; background-color: #d9534f;">Item</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #d9534f;">Description</th>
+<th style="border: 1px solid black; padding: 8px; background-color: #d9534f;">Price</th>
+</tr>
+</thead>
+ 
+<tbody>
+<tr>
+<td style="border: 1px solid black; padding: 8px;">Chocolate Cake</td>
+<td style="border: 1px solid black; padding: 8px;">A rich and moist chocolate cake topped with creamy chocolate frosting.</td>
+<td style="border: 1px solid black; padding: 8px;">$20</td>
+</tr>
+<tr>
+<td style="border: 1px solid black; padding: 8px;">Fresh Croissants</td>
+<td style="border: 1px solid black; padding: 8px;">Flaky, buttery croissants baked fresh every morning.</td>
+<td style="border: 1px solid black; padding: 8px;">$3 each</td>
+</tr>
+<tr>
+<td style="border: 1px solid black; padding: 8px;">Fruit Tart</td>
+<td style="border: 1px solid black; padding: 8px;">A delicious tart filled with fresh fruit and creamy custard.</td>
+<td style="border: 1px solid black; padding: 8px;">$15</td>
+</tr>
+<tr>
+<td style="border: 1px solid black; padding: 8px;">Homemade Bread</td>
+<td style="border: 1px solid black; padding: 8px;">Freshly baked bread with a crispy crust and soft inside.</td>
+<td style="border: 1px solid black; padding: 8px;">$5</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+<h3 style="color: #d9534f;;">Our Gallery:</h3>
+<img src="https://img.freepik.com/premium-photo/aesthetic-top-view-pastries-arranged-wooden-table_419341- 65981.jpg" alt="Pet Cafe" width="300" height="200">
+
+
+<h3 style="color: #d9534f;;">For orders:</h3>
+<form>
+<label for="name">Name:</label><br>
+<input type="text" id="name" name="name"><br><br>
+ 
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email"><br><br>
+
+<label for="name">Item:</label><br>
+<input type="text" id="item" name="item"><br><br>
+
+<label for="name">Quantity:</label><br>
+<input type="text" id="Quantity" name="Quantity"><br><br>
+<button type="submit">Submit</button>
+</form>
+
+
+</div>
+</body>
+</html>
