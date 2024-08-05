@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art and Craft Workshop</title>
+</head>
+<body>
+
+    <!-- Heading -->
+    <h1><u>Welcome to the Art and Craft Workshop!</u></h1>
+    <h2>This workshop spans three days, each featuring unique art and craft events. 
+            You can choose to attend any one, two, or all three days. 
+         Only the Materials asked to be brought, rest will be provided.
+            Between each Activity break of 1 hour will be given.</h2>
+            <br>
+            
+              <!-- Table -->
+    <h2><u>Event Details</u></h2>
+    <table border="1">
+        <tr>
+            <th>Day</th>
+            <th>Event</th>
+            <th>Activities</th>
+        </tr>
+        <tr>
+            <td>Day 1</td>
+            <td>Painting</td>
+            <td>Watercolor Painting, Acrylic Painting, Canvas Art</td>
+        </tr>
+        <tr>
+            <td>Day 2</td>
+            <td>Crafting</td>
+            <td>Paper Crafting, Origami, Scrapbooking</td>
+        </tr>
+        <tr>
+            <td>Day 3</td>
+            <td>Sculpture</td>
+            <td>Clay Modeling, Wood Carving, Soap Sculpting</td>
+        </tr>
+    </table><br>
+    
+    <!-- Event Details -->
+    <h2><u>Event Schedule</u></h2>
+    <h3>Day 1: Painting</h3>
+    <p>Date: 5th May, 2024</p>
+    <p>Time: 10.30am to 8pm</p>
+    <p>Activities: Watercolor Painting, Acrylic Painting, Canvas Art</p>
+     <img src="https://via.placeholder.com/150" alt="Art Example 1">
+     <img src="https://via.placeholder.com/150" alt="Art Example 2">
+     <img src="https://via.placeholder.com/150" alt="Art Example 3">
+
+    <h3>Day 2: Crafting</h3>
+    <p>Date: 6th May,2024</p>
+     <p>Time: 10.30am to 8pm</p>
+    <p>Activities: Paper Crafting, Origami, Scrapbooking</p>
+    <img src="https://via.placeholder.com/150" alt="Art Example 1">
+     <img src="https://via.placeholder.com/150" alt="Art Example 2">
+     <img src="https://via.placeholder.com/150" alt="Art Example 3">
+
+    <h3>Day 3: Sculpture</h3>
+    <p>Date: 7th May,2024</p>
+    <p>Time: 10.30am to 8pm</p>
+    <p>Activities: Clay Modeling, Wood Carving, Soap Sculpting</p> <br>
+    <img src="https://via.placeholder.com/150" alt="Art Example 1">
+     <img src="https://via.placeholder.com/150" alt="Art Example 2">
+     <img src="https://via.placeholder.com/150" alt="Art Example 3">
+    
+   
+    
+    <!-- List -->
+    <h2><u>Materials Needed</u></h2>
+    <h3>Day 1: Painting</h3>
+    <ul>
+        <li>2 Water Containers</li>
+        <li>Dry cloth</li>
+        <li>Pallate</li>
+        <li>Brushes</li>
+    </ul>
+
+    <h3>Day 2: Crafting</h3>
+    <ul>
+        <li>Glue</li>
+        <li>Decorative Materials</li>
+        <li>Scrapbooking Tools</li>
+    </ul>
+
+    <h3>Day 3: Sculpture</h3>
+    <ul>
+        <li>Clay</li>
+        <li>Wooden Block</li>
+        <li>Soap</li>
+    </ul><br>
+
+
+
+    <!-- Form for Registration -->
+    <h2><u>Register for the Workshop</u></h2>
+    <form action="/submit_registration" method="post">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="Mob No.">Mob No.:</label><br>
+        <input type="number" id="Mob No." name="Mob No."><br>
+
+        <p>Select the days you wish to attend:</p>
+        <input type="checkbox" id="day1" name="days" value="day1">
+        <label for="day1"> Day 1: Painting</label><br>
+        <input type="checkbox" id="day2" name="days" value="day2">
+        <label for="day2"> Day 2: Crafting</label><br>
+        <input type="checkbox" id="day3" name="days" value="day3">
+        <label for="day3"> Day 3: Sculpture</label><br>
+
+        <input type="submit" value="Register">
+    </form><br>
+    
+     <!-- Multimedia -->
+    <h2><u>Workshop Highlights</u></h2>
+    <h4>Previous Workshop Video:</h4>
+    <video width="320" height="240" controls>
+        <source src="workshop-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video><br>
+
+    <!-- Frame -->
+    <h2><u>Location Map</u></h2>
+    <iframe src="https://www.example.com" title="Workshop Location" width="300" height="200"></iframe>
+    <br>
+   
+    <h3><u>Workshop Music</u></h3>
+    <audio controls>
+        <source src="workshop-music.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+</body>
+</html>
